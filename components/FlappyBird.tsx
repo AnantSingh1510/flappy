@@ -20,6 +20,7 @@ export function Bird() {
         width,
         backgroundPosition: frame,
         backgroundSize: "auto 100%",
+        filter: "hue-rotate(190deg) saturate(1.2)",
         zIndex: 100,
       }}
     />
